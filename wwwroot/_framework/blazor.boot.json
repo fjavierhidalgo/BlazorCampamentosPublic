@@ -1,7 +1,7 @@
 {
   "entryAssembly": "BlazorCampamentos",
   "resources": {
-    "hash": "sha256-8gAZFNRHEM1wqe5h2acdj25NrbJrH2FXXLfAyDTfGKw=",
+    "hash": "sha256-/YYm7HTOVYBLw80TwQvB6nOPDO5e5xwbZnrIwlIV7A4=",
     "runtime": {
       "dotnet.js": "sha256-eaJTmow4t8eE7FZMZR5Ja41JMOefGCbIYDTdpclGsac=",
       "dotnet.timezones.blat": "sha256-gbATD5HDsHYtW8vdPYh9iSBY4O5CjvMeCSF5xXWF1xo=",
@@ -77,7 +77,7 @@
       "System.Xml.ReaderWriter.dll": "sha256-Ja1NSte0bkFSX7VByNxtjcNq+2TVJm19YqDA535zjI4=",
       "System.dll": "sha256-X00CS76RYP+1bonecVV1Cn/0jOHeoVQUo1GS8UHpHpM=",
       "System.Private.CoreLib.dll": "sha256-LKoV1FnqsNtMo+9lrshWvc1qYptHfWuanrVUAXbkSvc=",
-      "BlazorCampamentos.dll": "sha256-bY+N6ZoWjrq0gdrgB12oZoY10uEkVP8w92d+Ps7Xm/Q="
+      "BlazorCampamentos.dll": "sha256-Xrn43LqxdNKvk95pGOM3MI2Ez4hSiRpooDapbp2ReD0="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
