@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <title>BlazorCampamentos</title>
-    <base href="/file-upload" />
+    <base href="/" />
     <link href="css/app.css" rel="stylesheet" />
+    <link href="css/FileUploadForm.css" rel="stylesheet" />
     
     <!-- If you add any scoped CSS files, uncomment the following to load them
     <link href="BlazorCampamentos.styles.css" rel="stylesheet" /> -->
@@ -20,6 +21,18 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        function descargarArchivo(fileBytes, fileName) {
+            const link = document.createElement('a');
+            const blob = new Blob([fileBytes], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+            link.href = URL.createObjectURL(blob);
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(link.href);
+        }
+    </script>
 </body>
 
 </html>
